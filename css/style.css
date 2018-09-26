@@ -57,7 +57,7 @@ div#content {
 }
 
 /* 所有居中的div */
-div#navigator, .flex-caption, div#company, div#product {
+div#navigator, .flex-caption, div#company, div#product, div#custom_title, div#custom_item {
     width: 1200px;
     margin: 0 auto;
 }
@@ -103,7 +103,10 @@ div#navigator_right ul li a {
 
 
 div#company {
-	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+div#product {
+	margin-bottom: 80px;
 }
 
 div#product {
@@ -170,6 +173,24 @@ div.product_item1 {
 .icon-jiangzaoerji:before { content: "\e60e"; }
 
 
+
+div#custom {
+	background-color: #F5F9F9;
+	padding-bottom: 30px;
+}
+div#custom_title {
+	padding: 1px 0;
+}
+div#custom_item {
+	height: 200px;
+}
+div#custom_item img {
+	float: left;
+	overflow: hidden;
+}
+
+
+
 div#footer {
     text-align: center;
     padding: 20px 0;
@@ -200,7 +221,7 @@ div#footer {
 	position: relative;
 	zoom: 1;
 	background: #FFF;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .flex-direction-nav .flex-prev {
 	left: 0px;

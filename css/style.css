@@ -30,6 +30,24 @@ a:hover {
     text-decoration: none;
 }
 
+/* 行.空隙 */
+.gap_row {
+	height: 20px;
+	clear: both;
+}
+
+/* 列.空隙 */
+.gap_column {
+	float: left;
+	width: 20px;
+}
+
+/* 行和列.空隙的公共属性 */
+.gap_row, .gap_column {
+	background-color: #FFF;
+	overflow: hidden;
+}
+
 
 /*！ 本站个性化设置 */
 
@@ -91,20 +109,30 @@ div#company {
 div#product {
 	height: 402px;
 }
-div.product_item {
+div.product_item, div.product_item1 {
 	float: left;
-	width: 280px;
+	width: 285px;
 	height: 400px;
 	border: 1px solid #D4D4D4;
-	margin: 0 10px;
 	border-radius: 5px;
 	text-align: center;
 	color: #305BA7;
+}
+div.product_item {
 	padding-top: 20px;
+}
+div.product_item1 {
+	padding-top: 50px;
 }
 
 .product_icon {
 	font-size: 120px;
+}
+.product_icon1 {
+	font-size: 90px;
+}
+.product_title1 {
+	padding: 20px 0;
 }
 
 /*

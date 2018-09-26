@@ -132,7 +132,11 @@ div.product_item1 {
 	font-size: 90px;
 }
 .product_title1 {
-	padding: 20px 0;
+	padding: 20px 0 0;
+}
+.product_title {
+	font-size: 13px;
+	padding: 0 15px;
 }
 
 /*

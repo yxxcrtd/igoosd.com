@@ -21,7 +21,7 @@ body {
 }
 
 a {
-    color: #000;
+    color: #305BA7;
     text-decoration: none;
     cursor: pointer;
 }
@@ -127,6 +127,11 @@ div.product_item {
 div.product_item1 {
 	padding-top: 50px;
 }
+div.product_item:hover {
+	border: 1px solid #305BA7;
+}
+
+
 
 .product_icon {
 	font-size: 120px;

@@ -57,14 +57,27 @@ div#content {
 }
 
 /* 所有居中的div */
-div#navigator, .flex-caption, div#company, div#product, div#custom_title, div#custom_item {
+.flex-caption, div#company, div#product, div#custom_title, div#custom_item {
     width: 1200px;
     margin: 0 auto;
 }
-
-div#navigator {
+div#top {
     height: 100px;
     line-height: 100px;
+
+    /* 固定顶部 */
+    z-index: 999;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0; /* 控制position: fixed不居中 */
+    right: 0; /* 控制position: fixed不居中 */
+    box-shadow: 0 0 5px #888;
+}
+
+div#navigator {
+	width: 1200px;
+    margin: 0 auto;
 }
 div#navigator_left {
     float: left;
@@ -228,6 +241,7 @@ div#footer {
 	zoom: 1;
 	background: #FFF;
 	margin-bottom: 50px;
+	margin-top: 101px; /* 顶部的导航与下面的内容块间隙为 1px */
 }
 .flex-direction-nav .flex-prev {
 	left: 0px;
@@ -262,7 +276,6 @@ div#footer {
 }
 
 
-
 .flexslider .slide-caption {
 	width: 90%;
 	padding: 2%;
@@ -273,10 +286,8 @@ div#footer {
 
 div#earphone, div#muller {
 	width: 1920px;
-	margin: 0 auto;
+	margin: 101px auto 0; /* 顶部的导航与下面的内容块间隙为 1px */
 }
-
-
 
 
 .earphone1 {
@@ -349,18 +360,4 @@ div#earphone, div#muller {
 .earphone-describe {
 	font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

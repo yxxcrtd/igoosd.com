@@ -271,7 +271,7 @@ div#footer {
 	bottom: -40px;
 }
 
-div#earphone {
+div#earphone, div#muller {
 	width: 1920px;
 	margin: 0 auto;
 }

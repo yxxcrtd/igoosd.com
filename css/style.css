@@ -62,8 +62,8 @@ div#content {
     margin: 0 auto;
 }
 div#top {
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
 
     /* 固定顶部 */
     z-index: 999;
@@ -82,7 +82,7 @@ div#navigator {
 div#navigator_left {
     float: left;
     width: 300px;
-    height: 100px;
+    height: 80px;
     background: url("../images/logo.png") no-repeat scroll 0 50% / 170px 60px;
 }
 span#website {
@@ -104,7 +104,7 @@ div#navigator_right ul li {
     width: 120px;
     height: 48px;
     line-height: 48px;
-    margin: 26px 0;
+    margin: 16px 0;
 }
 div#navigator_right ul li a {
     display: block; /* 整个li标签显示超链接 */
@@ -241,7 +241,7 @@ div#footer {
 	zoom: 1;
 	background: #FFF;
 	margin-bottom: 50px;
-	margin-top: 101px; /* 顶部的导航与下面的内容块间隙为 1px */
+	margin-top: 81px; /* 顶部的导航与下面的内容块间隙为 1px */
 }
 .flex-direction-nav .flex-prev {
 	left: 0px;
@@ -286,7 +286,7 @@ div#footer {
 
 div#earphone, div#muller {
 	width: 1920px;
-	margin: 101px auto 0; /* 顶部的导航与下面的内容块间隙为 1px */
+	margin: 81px auto 0; /* 顶部的导航与下面的内容块间隙为 1px */
 }
 
 

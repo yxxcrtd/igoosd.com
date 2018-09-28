@@ -1,8 +1,9 @@
 $(function() {
 	$("#footer").load("footer.html");
 
-	$('.flexslider').flexslider({
+//	$('.flexslider').flexslider({
 //		slideshow: false,
 //		slideshowSpeed: 1000
-	});
+//	});
+
 });

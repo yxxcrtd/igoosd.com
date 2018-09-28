@@ -199,6 +199,7 @@ div#custom_item img {
 div#footer {
     text-align: center;
     padding: 20px 0;
+	color: #305BA7;
 }
 
 
@@ -269,6 +270,95 @@ div#footer {
 	left: 0;
 	bottom: -40px;
 }
+
+div#earphone {
+	width: 1920px;
+	margin: 0 auto;
+}
+
+
+
+
+.earphone1 {
+	width: 1920px;
+	height: 856px;
+    background: url("../images/earphone1.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone2 {
+	width: 1920px;
+	height: 871px;
+    background: url("../images/earphone2.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone3 {
+	width: 1920px;
+	height: 1050px;
+    background: url("../images/earphone3.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone4 {
+	width: 1920px;
+	height: 944px;
+    background: url("../images/earphone4.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone5 {
+	width: 1920px;
+	height: 857px;
+    background: url("../images/earphone5.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone6 {
+	width: 1920px;
+	height: 858px;
+    background: url("../images/earphone6.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone7 {
+	width: 1920px;
+	height: 922px;
+    background: url("../images/earphone7.jpg") no-repeat;
+    color: #FFF;
+}
+.earphone8 {
+	width: 1920px;
+	height: 916px;
+    background: url("../images/earphone8.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone9 {
+	width: 1920px;
+	height: 882px;
+    background: url("../images/earphone9.jpg") no-repeat;
+	color: #305BA7;
+}
+.earphone-right {
+	margin: 0 auto;
+	width: 1000px;
+	padding: 350px 0 0 600px;
+}
+.earphone-left {
+	margin: 0 auto;
+	width: 1200px;
+	padding: 350px 0 0 0;
+}
+.earphone-title {
+	font-size: 50px;
+}
+.earphone-describe {
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

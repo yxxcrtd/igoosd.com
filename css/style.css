@@ -34,6 +34,9 @@ a:hover {
 p {
 	/* text-indent: 2em; em是相对单位，2em即现在一个字大小的两倍 */
 }
+.red {
+	color: #F00;
+}
 
 /* 行.空隙 */
 .gap_row {

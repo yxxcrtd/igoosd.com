@@ -30,6 +30,11 @@ a:hover {
     text-decoration: none;
 }
 
+/* 段落首行缩进 */
+p {
+	/* text-indent: 2em; em是相对单位，2em即现在一个字大小的两倍 */
+}
+
 /* 行.空隙 */
 .gap_row {
 	height: 20px;
@@ -59,7 +64,7 @@ div#content {
 }
 
 /* 所有居中的div */
-.flex-caption, div#company, div#product, div#custom_title, div#custom_item {
+.flex-caption, div#about, div#industry, div#company, div#product, div#custom_title, div#custom_item, div#map_item {
     width: 1200px;
     margin: 0 auto;
 }
@@ -192,6 +197,19 @@ div.product_item:hover {
 
 .icon-jiangzaoerji:before { content: "\e60e"; }
 
+
+
+div#map {
+	background-color: #244093;
+	margin-bottom: 40px;
+}
+div#map_item {
+	height: 700px;
+	text-align: center;
+}
+div#map_item img {
+	overflow: hidden;
+}
 
 
 div#custom {

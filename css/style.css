@@ -67,7 +67,7 @@ div#content {
 }
 
 /* 所有居中的div */
-.flex-caption, div#about, div#industry, div#company, div#product, div#custom_title, div#custom_item, div#map_item {
+.flex-caption, div#about, div#industry, div#company, div#product, div#custom_title, div#custom_item, div#map_item, .industry_img {
     width: 1200px;
     margin: 0 auto;
 }

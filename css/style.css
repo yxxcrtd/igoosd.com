@@ -391,6 +391,10 @@ div#earphone, div#muller {
 }
 
 
+
+div#industry {
+	margin: 81px auto 0; /* 顶部的导航与下面的内容块间隙为 1px */
+}
 .industry_img {
 	padding: 30px 0;
 }
